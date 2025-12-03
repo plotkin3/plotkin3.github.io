@@ -1,0 +1,100 @@
+.open-sans-genfam {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.currentDate {
+    color: black;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+}
+
+.navbar {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    background: rgb(255, 128, 38);
+    background-blend-mode: darken;
+    background-size: cover;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.navbar div p {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.15s ease-in-out;
+}
+
+.nav-list li a:hover {
+    color: rgb(255, 200, 0);
+}
+
+.init-section {
+    padding: 60px 25px;
+}
+
+.citations a:link, a:visited {
+    color: black;
+}
+
+.mars a:link, a:visited {
+    color: black;
+}
+
+.stars-section, .clusters-section, .photos-section, .processing-section {
+    padding: 80px 25px;
+}
+
+.init-section h3, .stars-section h3, .clusters-section h3, .photos-section h3, .processing-section h3 {
+    padding: 15px 25px;
+}
+
+.stars-section h2, .clusters-section h2, .photos-section h2, .processing-section h2 {
+    padding: 15px 0px;
+}
+
+.adjustable-h1 {
+    padding: 10px 0px;
+}
+
+.custom-break {
+    height: 600px;
+    display: block;
+    background-color: transparent;
+}
+
+body { text-align: center; }
+h4 a { font-size: 16px }
